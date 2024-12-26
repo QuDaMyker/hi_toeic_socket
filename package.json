@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_chat_websocket",
+  "version": "1.0.0",
+  "main": "websocket_without_checkout.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index_2.js",
+    "check_valid": "node websocket_check_valid_word.js",
+    "no_check_valid": "node websocket_without_checkout.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.7",
+    "deamon": "^1.0.0",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.0"
+  }
+}
